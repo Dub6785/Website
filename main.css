@@ -1,0 +1,92 @@
+/* General Styles */
+
+.myheader{
+background-color: darkgreen;
+padding: 20px;
+text-align: center;
+}
+
+nav{
+        display: flex;
+        justify-content: center;
+        background-color: black;
+}
+
+nav a{
+       display: inline-block;
+       color: white;
+       text-align: center;
+       padding: 16px 16px;
+
+}
+
+nav a:hover{
+             background-color: white;
+             color: black;
+
+}
+
+
+.container{
+          float: left;
+          display: flex;
+
+}
+
+.left, .right{
+              width: 25%;
+
+}
+
+.middle{
+        width: 50%;
+
+}
+
+.price{
+          text-align: center;
+	  color: red;	
+
+}
+
+
+table{
+
+      border-collapse: collapse;
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+
+}
+
+
+
+td, th {
+
+        border: 2px solid black;
+
+}
+       
+.currency{
+          text-align: center;
+	  color: green;	
+
+}
+
+.links{
+          text-align: center;
+	  color: blue;	
+
+}
+
+
+footer{
+
+background-color: black;
+color: white;
+text-align: center; 
+padding:10px 0px;
+width:100%;
+
+}
+
